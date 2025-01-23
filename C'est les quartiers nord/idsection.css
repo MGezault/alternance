@@ -1,0 +1,24 @@
+
+
+#personnage1,#personnage2{
+    flex-basis: 50%;
+    display  : flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+
+.texte1,.texte2 {
+    display  : flex;
+    flex-wrap: wrap;    
+}
+
+.texte2{
+    justify-content: right;
+}
+
+#contact{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: last baseline;
+}
